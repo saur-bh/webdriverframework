@@ -31,7 +31,7 @@ import type { Options } from '@wdio/types'
     // will be called from there.
     //
     specs: [
-        `${process.cwd}/test/features/**/*.feature`
+        "./test/features/**/*.feature"
     ],
     // Patterns to exclude.
     exclude: [
@@ -154,7 +154,7 @@ import type { Options } from '@wdio/types'
         // <boolean> fail if there are any undefined or pending steps
         strict: false,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
-        tagExpression: '',
+        tagExpression: '@demo',
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
