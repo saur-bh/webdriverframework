@@ -1,7 +1,7 @@
 import { Given ,When,Then} from "@wdio/cucumber-framework";
 
-Given(/^Google page is opened$/,function(){
+Given(/^Google page is opened$/, async function(){
 
-    browser.url("https//www.google.com");
-    browser.debug();
+    await browser.url("https://www.google.com");
+    await browser.pause(7000);
 })
