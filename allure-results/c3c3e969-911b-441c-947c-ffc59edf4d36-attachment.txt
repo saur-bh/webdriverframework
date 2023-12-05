@@ -1,3 +1,0 @@
-{
-  "url": "http://localhost/https//www.google.com"
-}
